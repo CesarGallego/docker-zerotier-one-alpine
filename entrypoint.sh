@@ -6,4 +6,4 @@ if [ ! -e /dev/net/tun ]; then
   exit 1
 fi
 
-exec /usr/sbin/zerotier-one
+echo "Ready" | exec /usr/sbin/zerotier-one
